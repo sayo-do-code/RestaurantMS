@@ -7,6 +7,7 @@ import Profile from "./Profile.jsx";
 import Home from "./Home.jsx";
 import AddRestaurant from "./AddRestaurant.jsx";
 import RestaurantEdit from "./EditRestaurant.jsx";
+import HomePage from "./HomePage.jsx";
 
 function App() {
   return (
