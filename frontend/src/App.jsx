@@ -7,15 +7,15 @@ import Profile from "./Profile.jsx";
 import Home from "./Home.jsx";
 import AddRestaurant from "./AddRestaurant.jsx";
 import RestaurantEdit from "./EditRestaurant.jsx";
-import HomePage from "./HomePage.jsx";
+import LandingPage from "./components/LandingPage.jsx";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/Dashboard" element={<Dashboard />}>
-          <Route path="" element={<Home />}></Route>
+        <Route path="/landingpage" element={<LandingPage />}></Route>
+        <Route path="/" element={<Dashboard />}>
+          <Route index element={<Home />}></Route>
           <Route path="/restaurant" element={<Restaurant />}></Route>
           <Route path="/profile" element={<Profile />}></Route>
           <Route path="/create" element={<AddRestaurant />}></Route>
@@ -24,7 +24,7 @@ function App() {
             element={<RestaurantEdit />}
           ></Route>{" "}
         </Route>
-        <Route path="/login" element={<Login />}></Route>
+        <Route path="login" element={<Login />}></Route>
       </Routes>
     </BrowserRouter>
   );

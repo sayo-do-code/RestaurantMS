@@ -1,10 +1,10 @@
-.loginPage{
-    background: url('Images/3.jpeg');
+.loginPage {
+  background: #111;
 }
 
-.loginForm{
-    background-color: rgba(1, 32, 93, 0.6);
-    color: white;
+.loginForm {
+  background-color: rgba(1, 32, 93, 0.6);
+  color: white;
 }
 
 /* Override Bootstrap styles for text color */
@@ -17,5 +17,3 @@
 .nav-link i {
   color: white;
 }
-
-
