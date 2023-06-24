@@ -1,0 +1,21 @@
+.loginPage{
+    background: url('Images/3.jpeg');
+}
+
+.loginForm{
+    background-color: rgba(1, 32, 93, 0.6);
+    color: white;
+}
+
+/* Override Bootstrap styles for text color */
+.nav-link,
+.nav-link span {
+  color: white;
+}
+
+/* Override Bootstrap styles for icon color */
+.nav-link i {
+  color: white;
+}
+
+
